@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<CheckBox
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/check_child"
+    android:layout_marginLeft="50dp"/>
+
+  <ImageView
+      android:layout_width="30dp"
+      android:layout_height="30dp"
+      android:id="@+id/img_view"
+      android:src="@mipmap/ic_launcher"/>
+ <RelativeLayout
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content">
+ <TextView
+     android:layout_marginTop="0dp"
+     android:id="@+id/text_child"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:text="xxxxxxxx"
+     android:layout_marginLeft="10dp"
+     />
+  <TextView
+      android:id="@+id/price_item"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="￥0000"
+      android:textColor="#f00"
+      android:layout_below="@+id/text_child"
+      />
+
+ </RelativeLayout>
+
+</LinearLayout>
